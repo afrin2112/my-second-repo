@@ -33,10 +33,9 @@ half-width-img {
 
 .link-button {
     text-decoration: none;
-    border: 2px solid rgb(230, 110, 110);
     padding: 10px 30px;
     background-image: linear-gradient(orange, tomato);
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-weight: 700;
 }
@@ -45,4 +44,25 @@ half-width-img {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    display: flex;
+}
+
+.link-box2 {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px 90px;
 }
